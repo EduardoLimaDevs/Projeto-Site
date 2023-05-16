@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+/* Cabeçalho */
+.header {
+    height: 300px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#titulo-principal {
+    background-position: center;
+    background-color: #C0C0C0;    ;
+    color:black;
+    padding: 40px;
+    font-family: helvetica;
+    font-family: center;
+    border: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu  {
+    background-position: center;
+    background-color: #DCDCDC;
+    margin: 0px;
+    padding: 5px;
+    border: 3px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    height: 30px;
+    width: 170px;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.produtos:hover {
+    background-color: black;
+    color: white;
+}
+.produtos {
+    background-position: center;
+    background-color: #DCDCDC;
+    margin: 0px;
+    padding: 5px;
+    border: 3px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    height: 30px;
+    width: 170px;
+    display:inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contato:hover {
+    background-color: black;
+    color: white;
+}
+
+.contato {
+    background-position: center;
+    background-color: #DCDCDC;
+    margin: 0px;
+    padding: 5px;
+    border: 3px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    height: 30px;
+    width: 170px;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mapa:hover {
+    background-color: black;
+    color: white;
+}
+
+.mapa {
+    background-color: #DCDCDC;
+    margin: 0px;
+    padding: 5px;
+    border: 3px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    height: 30px;
+    width: 170px;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Grid de produtos */
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.produto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    padding: 15px;
+    display: inline-block;
+    margin: 1% 1%;
+}
+
+.product-image {
+   height: 300px;
+   width: 200px;
+   margin-bottom: 15px;
+   background-position: center;
+   background-size: cover;
+}
+
+#image-1 {
+    background-image: url('../image/tenis1.jpg'); 
+}
+
+#image-2 {
+    background-image: url('../image/tenis2.jpg');
+}
+
+#image-3 {
+    background-image: url('../image/tenis3.jpg');
+}
+
+#image-4 {
+    background-image: url('../image/tenis4.jpg');
+}
+
+#image-5 {
+    background-image: url('../image/tenis5.jpg');
+}
+
+#image-6 {
+    background-image: url('../image/tenis6.jpg');
+}
+
+#image-7 {
+    background-image: url('../image/tenis7.jpg');
+}
+
+#image-8 {
+    background-image: url('../image/tenis8.jpg');
+}
+
+#image-9 {
+    background-image: url('../image/tenis9.jpg');
+}
+.card {
+    margin-bottom: 10px;
+}
+ 
+.btn {
+    background-color: #DCDCDC;
+    border: 3px solid black;
+
+}
+
+.btn:hover {
+    justify-content: center;
+    width: 100px;
+    right: 200px;
+    margin-bottom: 300px;
+    border: 3px solid black;   
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.anterior:hover{
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+}
+
+.anterior {
+    background-color: #C0C0C0;
+    display: inline-block;
+    padding: 5px;
+    margin-top: auto;
+    right: 15px;
+    border: 3px solid black;
+    text-justify: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+}
+
+.proximo:hover {
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+}
+
+.proximo {
+    background-color: #C0C0C0;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 20px;
+    right: 15px auto;
+    border: 3px solid black;
+    text-justify: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.pagination {
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px auto;
+}
+/* rodape */
+
+footer {
+    background-color: #C0C0C0;
+    color: black;
+    padding: 60px;
+    border-top: 3px solid black;
+    text-transform: uppercase;
+    text-align: center;
+}
